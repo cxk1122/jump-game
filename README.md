@@ -22,7 +22,7 @@ A 2D open-source platformer game made with Godot Engine. Join Pio, our pixel pio
 
 ## 🛠️ Getting Started / How to Build & Run
 
-This project is being developed with **Godot Engine (version X.X.X - please specify later, e.g., 4.2.1)**.
+This project is being developed with **Godot Engine  4.2.1**.
 
 1.  **Download Godot Engine:** Get it from [godotengine.org](https://godotengine.org).
 2.  **Clone the Repository:**
@@ -58,7 +58,7 @@ You can help with:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgements (Optional)
+## 🙏 Acknowledgements 
 
 * Thanks to any specific tutorials, asset creators, or inspirations here.
 * The Godot Engine community.
