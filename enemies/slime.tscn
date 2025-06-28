@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://..."]
+
+[ext_resource type="Script" path="res://enemies/slime.gd" id="1_..."]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_..."]
+
+[node name="Slime" type="CharacterBody2D" groups=["enemies"]]
+script = ExtResource("1_...")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_...")
+
+[node name="FloorDetector" type="RayCast2D" parent="."]
+target_position = Vector2(16, 0)
+
+[node name="EdgeDetector" type="RayCast2D" parent="."]
+target_position = Vector2(16, 16)
